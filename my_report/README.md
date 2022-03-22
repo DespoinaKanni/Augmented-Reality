@@ -2,7 +2,7 @@
 
 ### First and Last Name: xxx
 ### University Registration Number: dpsdxxxxx
-### GitHub Personal Profile: xxx
+### GitHub Personal Profile: https://github.com/DespoinaKanni
 ### Augmented Reality Personal Repository: 
 
 # Introduction
