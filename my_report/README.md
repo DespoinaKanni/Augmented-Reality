@@ -1,6 +1,6 @@
 # Lesson: Interaction Design
 
-### First and Last Name: Δεσποινα Καννή-Ρεμπούλη
+### First and Last Name: Δέσποινα Καννή-Ρεμπούλη
 ### University Registration Number: dpsd17042
 ### GitHub Personal Profile: https://github.com/DespoinaKanni
 ### Augmented Reality Personal Repository: https://despoinakanni.github.io/Augmented-Reality/
