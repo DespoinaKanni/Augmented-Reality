@@ -12,13 +12,13 @@
 
 # 1st Deliverable
 Η εργασία πραγματοποιήθηκε στους υπολογιστές της σχολής.
-Αρχικά συνδέθηκα στο GitHub με τους προσωπικούς μου κωδικούς. Από το προφίλ μου μπήκα στο Augmented-Reality όπου εκεί πάτησα στο Code (πράσινο χρώμα) και επέλεξα να ανοίξει με το GitHub Desktop (Open with GitHub Desktop). Χρειάστηκε να εγκαταστήσω το GitHub Desktop στον υπολογιστή και αφού το έκανα συνδέθηκα με τους προσωπικούς μου κωδικούς. Στην συνέχεια ακολούθησα την διαδρομή zdrive\Documents\GitHub\Augmented Reality\ marker_based και εκεί βρήκα το αρχείο index όπου το άνοιξα με Visual Studio και εμφανίστηκε ο κώδικας. Στην συνέχεια από την αναζήτηση (search bar windows) εντόπισα το Command Prompt και ακολούθησα τις παρακάτω ενέργειες:
+Αρχικά συνδέθηκα στο GitHub με τους προσωπικούς μου κωδικούς. Από το προφίλ μου μπήκα στο Augmented-Reality όπου εκεί πάτησα στο Code (πράσινο χρώμα) και επέλεξα να ανοίξει με το GitHub Desktop (Open with GitHub Desktop). Χρειάστηκε να εγκαταστήσω το GitHub Desktop στον υπολογιστή και αφού το έκανα συνδέθηκα με τους προσωπικούς μου κωδικούς. Στην συνέχεια ακολούθησα την διαδρομή This PC\ dpsd17042(\\aegean.gr\DPSD\Students) (Z:)\Documents\GitHub\Augmented Reality\ marker_based και εκεί βρήκα το αρχείο index όπου το άνοιξα με Visual Studio και εμφανίστηκε ο κώδικας. Στην συνέχεια από την αναζήτηση (search bar windows) εντόπισα το Command Prompt και ακολούθησα τις παρακάτω ενέργειες:
 Z:\>cd “My Documents” (enter) 
 Z:\My Documents>cd GitHub (enter)
 Z:\My Documents\GitHub>cd Augmented-Reality (enter)
 Z:\My Documents\GitHub\Augmented-Reality>python -m http.server (enter)
 
-Το python -m http.server το βρήκα μέσα από: merkourisa/Augmented-Reality στα Discussions στο Preview του κώδικα και το αντέγραψα και το έκανα επικόλληση στο Command Prompt
+Το python -m http.server το βρήκα μέσα από: merkourisa/Augmented-Reality στα Discussions στο Preview του κώδικα και το αντέγραψα και το έκανα επικόλληση μέσα στο Command Prompt
 Τέλος, πάλι μέσα από το Preview του κώδικα πάτησα το  http://localhost:8000/ όπου μου άνοιξε την κάμερα του υπολογιστή.
 
 Έπειτα, επέστρεψα ξανά στο αρχείο με τον κώδικα στο Visual Studio για να τον συμπληρώσω με τις νέες εντολές.
@@ -53,7 +53,7 @@ https://www.npmjs.com/package/aframe-speech-command-component
 </a-entity>
 <a-entity id="snow" position="0 6 -15" particle-system="color: #ffffff"></a-entity>
 
-Αφού τελείωσα τον κώδικα πάτησα save στο Visual Studio για να αποθηκευτούν οι αλλαγές και πήγα στην κάμερα να δω εάν λειτουργεί. Έκανα ένα refresh και μου εδειξε στην οθόνη τον εαυτό μου και να πέφτουν τα χιόνια ,έβαλα μπροστά από την κάμερα το χαρτί με το hiro και εμφανίστηκαν στην οθόνη το κουτί, ο κύλινδρος και η σφαίρα. Τέλος φώναξα την λέξη STOP για να σταματήσει να πέφτει το χιόνι και την λέξη START για να ξεκινήσει ξανά. Όμως, αργούσε λίγο και καμια φορά δεν το αντιλαμβανόταν με την πρώτη  ή έπρεπε να φωνάξω δυνατά. Αφού τελείωσα την εργασία,μπήκα στο GitHub Desktop για να την στείλω στο GitHub και πάτησα commit main και μετά push origin.
+Αφού τελείωσα τον κώδικα πάτησα save στο Visual Studio για να αποθηκευτούν οι αλλαγές και πήγα στην κάμερα να δω εάν λειτουργεί. Έκανα ένα refresh και μου εδειξε στην οθόνη τον εαυτό μου και να πέφτουν τα χιόνια ,έβαλα μπροστά από την κάμερα το χαρτί με το hiro και εμφανίστηκαν στην οθόνη το κουτί, ο κύλινδρος και η σφαίρα. Τέλος φώναξα την λέξη STOP για να σταματήσει να πέφτει το χιόνι και την λέξη START για να ξεκινήσει ξανά. Όμως, αργούσε αρκετά να δεχτεί τις φωνητικές εντολές και καμιά φορά δεν τις αντιλαμβανόταν με την πρώτη φορά ή έπρεπε να φωνάξω δυνατά. Αφού τελείωσα την εργασία,μπήκα στο GitHub Desktop για να την στείλω στο GitHub και πάτησα commit main και μετά push origin.
 
 
 
