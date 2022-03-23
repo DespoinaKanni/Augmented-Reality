@@ -35,7 +35,7 @@ Z:\My Documents\GitHub\Augmented-Reality>python -m http.server (enter)
 <a-entity id="sphere" geometry="primitive: sphere; radius: 0.1" position="0.5 0 0"
                       material="color:#10e670"></a-entity>
 
-Τα χρώματα τα άλλαξα από το internet για το #cdb5f7 https://www.google.gr/search?q=%23cdb5f7&sxsrf=APq-WBuCsZkOJofs0UVSw8lEl-aS4X9sOg%3A1647974436656&source=hp&ei=JBg6Yq-tJcKQxc8P-oauYA&iflsig=AHkkrS4AAAAAYjomNB-5rZW3gtRtOHQfyqIx_FHVlLai&ved=0ahUKEwivz5KXr9r2AhVCSPEDHXqDCwwQ4dUDCAc&uact=5&oq=%23cdb5f7&gs_lcp=Cgdnd3Mtd2l6EAM6BwgjEOoCECdQ1eyBBFjV7IEEYPb3gQRoAXAAeACAAZ0CiAGdApIBAzItMZgBAKABAqABAbABCg&sclient=gws-wiz
+Τα χρώματα για τον κύλινδρο και την σφαίρα τα άλλαξα από το internet για το #cdb5f7 https://www.google.gr/search?q=%23cdb5f7&sxsrf=APq-WBuCsZkOJofs0UVSw8lEl-aS4X9sOg%3A1647974436656&source=hp&ei=JBg6Yq-tJcKQxc8P-oauYA&iflsig=AHkkrS4AAAAAYjomNB-5rZW3gtRtOHQfyqIx_FHVlLai&ved=0ahUKEwivz5KXr9r2AhVCSPEDHXqDCwwQ4dUDCAc&uact=5&oq=%23cdb5f7&gs_lcp=Cgdnd3Mtd2l6EAM6BwgjEOoCECdQ1eyBBFjV7IEEYPb3gQRoAXAAeACAAZ0CiAGdApIBAzItMZgBAKABAqABAbABCg&sclient=gws-wiz
 
 και για το #10e670
 https://www.google.gr/search?q=%2310e670&sxsrf=APq-WBtejlm9TU_fqOYZft7HuOrm-dBfVA%3A1647982858358&ei=Cjk6Yu-0FZabkgX12qz4Dw&ved=0ahUKEwjv4fjGztr2AhWWjaQKHXUtC_8Q4dUDCA4&uact=5&oq=%2310e670&gs_lcp=Cgdnd3Mtd2l6EAM6BwgjEOoCECdKBAhBGABKBAhGGABQAFjEFmDyKmgBcAB4AIABowGIAaMBkgEDMC4xmAEAoAEBoAECsAEKwAEB&sclient=gws-wiz
