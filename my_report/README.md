@@ -12,7 +12,7 @@
 
 # 1st Deliverable
 Η εργασία πραγματοποιήθηκε στους υπολογιστές της σχολής.
-Αρχικά συνδέθηκα στο GitHub με τους προσωπικούς μου κωδικούς. Από το προφίλ μου μπήκα στο Augmented-Reality όπου εκεί πάτησα στο Code (πράσινο χρώμα) και επέλεξα να ανοίξει με το GitHub Desktop (Open with GitHub Desktop). Χρειάστηκε να εγκαταστήσω το GitHub Desktop στον υπολογιστή και αφού το έκανα συνδέθηκα με τους προσωπικούς μου κωδικούς. Στην συνέχεια ακολούθησα την διαδρομή This PC\ dpsd17042(\\aegean.gr\DPSD\Students) (Z:)\Documents\GitHub\Augmented Reality\ marker_based και εκεί βρήκα το αρχείο index όπου το άνοιξα με Visual Studio και εμφανίστηκε ο κώδικας. Στην συνέχεια από την αναζήτηση (search bar windows) εντόπισα το Command Prompt και ακολούθησα τις παρακάτω ενέργειες:
+Αρχικά συνδέθηκα στο GitHub με τους προσωπικούς μου κωδικούς. Από το προφίλ μου μπήκα στο Augmented-Reality όπου εκεί πάτησα στο Code (πράσινο χρώμα) και επέλεξα να ανοίξει με το GitHub Desktop (Open with GitHub Desktop). Χρειάστηκε να εγκαταστήσω το GitHub Desktop στον υπολογιστή και αφού το έκανα συνδέθηκα με τους προσωπικούς μου κωδικούς. Στην συνέχεια ακολούθησα την διαδρομή This PC\ dpsd17042(\\aegean.gr\DPSD\Students)(Z:)\Documents\GitHub\Augmented Reality\ marker_based και εκεί βρήκα το αρχείο index όπου το άνοιξα με Visual Studio και εμφανίστηκε ο κώδικας. Στην συνέχεια από την αναζήτηση (search bar windows) εντόπισα το Command Prompt και ακολούθησα τις παρακάτω ενέργειες:
 Z:\>cd “My Documents” (enter) 
 Z:\My Documents>cd GitHub (enter)
 Z:\My Documents\GitHub>cd Augmented-Reality (enter)
