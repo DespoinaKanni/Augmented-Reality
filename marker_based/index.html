@@ -18,11 +18,7 @@
              arjs="trackingMethod: best; sourceType: webcam;debugUIEnabled: false;">
 
 
-        <a-entity id="annyang" annyang-speech-recognition></a-entity>
-        <a-entity id="switch" speech-command__start="command: start; type: attribute; attribute: visible; targetElement: #snow; value: true;"
-                  speech-command__stop="command: stop; type: attribute; attribute: visible; targetElement: #snow;  value: false;">
-        </a-entity>
-        <a-entity id="snow" position="0 6 -15" particle-system="color: #ffffff"></a-entity>
+        
 
         <a-marker preset="hiro">
             <a-entity id="box" geometry="primitive: box; width: 0.4; depth: 0.3; height: 0.4" position="0 0 0"
@@ -31,7 +27,25 @@
                       material="color: #cdb5f7"></a-entity>
             <a-entity id="sphere" geometry="primitive: sphere; radius: 0.1" position="0.5 0 0"
                       material="color:#10e670"></a-entity>
+                      <a-entity id="annyang" annyang-speech-recognition></a-entity>
+        <a-entity id="switch" speech-command__start="command: start; type: attribute; attribute: visible; targetElement: #snow; value: true;"
+                  speech-command__stop="command: stop; type: attribute; attribute: visible; targetElement: #snow;  value: false;">
+        </a-entity>
+        <a-entity id="snow" position="0 6 -15" particle-system="color: #ffffff"></a-entity>
 
+
+        </a-marker>
+
+        <a-marker preset="pattern" type="pattern" url ="./assets/pattern-dpsd19117.patt">
+            <a-text text="value: Siafali " position="0.5 0 0" color="#3A0E23"></a-text>
+            <a-image src="./assets/maria.png"> </a-image>
+            <a-text text="value: Maria" position="1.5 0.5 0" color="#3A0E23"></a-text>
+        </a-marker>
+
+        <a-marker preset="pattern" type="pattern" url ="./assets/pattern-dpsd17042.patt">
+            <a-text text="value: Kanni Rempouli " position="0.5 0 0" color="#3A0E23"></a-text>
+            <a-image src="./assets/despoina.png"> </a-image>
+            <a-text text="value: Despoina" position="1.5 0.5 0" color="#3A0E23"></a-text>
         </a-marker>
 
 
