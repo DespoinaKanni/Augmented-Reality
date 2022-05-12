@@ -54,7 +54,7 @@ Z:\My Documents\GitHub\Augmented-Reality>python -m http.server (enter)
 Το *`python -m http.server`* το βρήκα μέσα από: merkourisa/Augmented-Reality στα Discussions στο Preview του κώδικα και το αντέγραψα και το έκανα επικόλληση στο Command Prompt. Τέλος, πάλι μέσα από το Preview του κώδικα πάτησα το [localhost](http://localhost:8000/) όπου μου άνοιξε την κάμερα του υπολογιστή.
 
 
-### Πρώτο σκέλος:
+## Πρώτο σκέλος:
 
 
 1.Διάλεξα μια [εικόνα](https://www.google.gr/search?q=rabbit+&tbm=isch&ved=2ahUKEwixgL36hdr3AhUOgv0HHau1By4Q2-cCegQIABAA&oq=rabbit+&gs_lcp=CgNpbWcQAzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQ6BAgjECc6BAgAEBg6BggAEAoQGDoHCCMQ6gIQJzoECAAQQzoICAAQgAQQsQM6CAgAELEDEIMBUMkIWL8mYM41aAFwAHgAgAF8iAGtB5IBAzAuOJgBAKABAaoBC2d3cy13aXotaW1nsAEKwAEB&sclient=img&ei=yQh9YvH3CI6E9u8Pq-ue8AI&bih=920&biw=1903&hl=el#imgrc=zuW48o82JPTc1M) από το διαδίκτυο και την αποθήκευσα
@@ -68,7 +68,8 @@ Z:\My Documents\GitHub\Augmented-Reality>python -m http.server (enter)
 5.Μπήκα από το github στο deliverable 2 και στην περιγραφή πάτησα τα [pattern markers](https://ar-js-org.github.io/AR.js-Docs/marker-based/) και εκεί βρήκα το [tool](https://ar-js-org.github.io/AR.js/three.js/examples/marker-training/examples/generator.html) όπου φτιάχνουμε τα pattern 
 
 
-![Στιγμιότυπο οθόνης (296)](https://user-images.githubusercontent.com/100956507/168093838-913cd9c9-bf70-48cf-943a-6b1f053b6893.png)
+![tool](https://user-images.githubusercontent.com/100956507/168103183-53e38828-9170-4dee-b96b-24d13dc78a4c.png)
+
 
 
 6.Έκανα upload την εικόνα dpsd17042.png και την προσάρμοσα
@@ -77,7 +78,17 @@ Z:\My Documents\GitHub\Augmented-Reality>python -m http.server (enter)
 
 8.Έπειτα, επέστρεψα ξανά στο αρχείο με τον κώδικα στο Visual Studio Code για να τον συμπληρώσω με τις νέες εντολές.
 
-#### ΚΩΔΙΚΑΣ:
+#### ΚΩΔΙΚΑΣ: Για το marker, το ονοματεπώνυμο μου και την εικόνα που επέλεξα έψαξα στο διαδίκτυο για να βρω τον κώδικα που αντιστοιχεί στο καθένα.
+
+* [marker_code](https://ar-js-org.github.io/AR.js-Docs/marker-based/)
+
+
+![markercode](https://user-images.githubusercontent.com/100956507/168103374-6659299c-d41d-43cc-83d5-1cd288d7c533.png)
+
+
+
+
+
 
 
 
