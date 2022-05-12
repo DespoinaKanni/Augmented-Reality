@@ -51,7 +51,6 @@ Z:\My Documents\GitHub\Augmented-Reality>python -m http.server (enter)
 
 * Z:\My Documents\GitHub\Augmented-Reality>python -m http.server (enter)
 
-
 Το *`python -m http.server`* το βρήκα μέσα από: merkourisa/Augmented-Reality στα Discussions στο Preview του κώδικα και το αντέγραψα και το έκανα επικόλληση στο Command Prompt. Τέλος, πάλι μέσα από το Preview του κώδικα πάτησα το [localhost](http://localhost:8000/) όπου μου άνοιξε την κάμερα του υπολογιστή.
 
 Έπειτα, επέστρεψα ξανά στο αρχείο με τον κώδικα στο Visual Studio Code για να τον συμπληρώσω με τις νέες εντολές.
