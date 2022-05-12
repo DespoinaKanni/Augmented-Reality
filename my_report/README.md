@@ -66,7 +66,7 @@ Z:\My Documents\GitHub\Augmented-Reality>python -m http.server (enter)
 
 4.Από τα assets στο github αποθήκευσα την εικόνα dpsd.png και την έβαλα στο Photoshop για να την φτιάξω με το δικό μου dpsd. Την ονόμασα dpsd17042.png
 
-5.Μπήκα από το github στο deliverable 2 και στην περιγραφή πάτησα στο link με τα [pattern markers](https://ar-js-org.github.io/AR.js-Docs/marker-based/) 
+5.Μπήκα από το github στο deliverable 2 και στην περιγραφή πάτησα τα [pattern markers](https://ar-js-org.github.io/AR.js-Docs/marker-based/) 
 
 6.Από την παραπάνω σελίδα βρήκα τα 
 
