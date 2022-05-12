@@ -12,26 +12,87 @@
 <script src="//cdnjs.cloudflare.com/ajax/libs/annyang/2.5.0/annyang.min.js"></script>
 <script src="build/aframe-speech-command-component.js"></script>
 
+<!-- script for measuring distance -->
+<script src="https://raw.githack.com/donmccurdy/aframe-extras/master/dist/aframe-extras.loaders.min.js"></script>
+
 
 <body style="margin : 0px; overflow: hidden;">
-    <a-scene vr-mode-ui="enabled: false;" renderer="logarithmicDepthBuffer: true;" embedded
-             arjs="trackingMethod: best; sourceType: webcam;debugUIEnabled: false;">
+    <script>
 
-        <a-marker preset="hiro">
+    AFRAME.registerComponent("marker-distance", {
+        init: function()
+            {
+        this.Hydrogen = document.querySelector("#Hydrogen")
+        this.Oxygen = document.querySelector("#Oxygen")
+        this.Water = document.querySelector("#Water")
+        this.cardH = document.querySelector("#cardH")
+        this.cardO = document.querySelector("#cardO")
+        this.cardh2O = document.querySelector("#cardh2O")
+        this.markerHyd = document.querySelector("#patternH")
+        this.markerOxy = document.querySelector("#patternO")
+      },
+          tick: function () {
+
+              var markerHydPos, markerOxyPos, dist
+              markerHydPos = new THREE.Vector3();
+              this.markerHyd.object3D.getWorldPosition(markerHydPos);
+
+              markerOxyPos = new THREE.Vector3();
+              this.markerOxy.object3D.getWorldPosition(markerOxyPos);
+
+
+              dist = markerHydPos.distanceTo(markerOxyPos);
+
+              if (dist<2){
+                this.Water.setAttribute("visible", true)
+                this.Hydrogen.setAttribute("visible", false)
+                this.Oxygen.setAttribute("visible", false)
+                this.cardH.setAttribute("visible", false)
+                this.cardO.setAttribute("visible", false)
+		        this.cardh2O.setAttribute("visible", true)
+              }
+              else{
+                this.Water.setAttribute("visible", false)
+                this.Hydrogen.setAttribute("visible", true)
+                this.Oxygen.setAttribute("visible", true)
+                this.cardH.setAttribute("visible", true)
+                this.cardO.setAttribute("visible", true)
+	            this.cardh2O.setAttribute("visible", false)
+              }
+          }
+
+      });
+
+    </script>
+    
+    <a-scene
+     vr-mode-ui="enabled: false;"
+     renderer="logarithmicDepthBuffer: true;"
+      embedded
+      arjs="trackingMethod: best; sourceType: webcam;debugUIEnabled: false;">
+
+        
+      <a-marker preset="hiro">
             <a-entity id="box" geometry="primitive: box; width: 0.4; depth: 0.3; height: 0.4" position="0 0 0"
                       material="color: #4CC3D9"></a-entity>
             <a-entity id="cylinder" geometry="primitive: cylinder;  height: 0.3; radius: 0.2" position="-0.5 0 0"
                       material="color: #cdb5f7"></a-entity>
             <a-entity id="sphere" geometry="primitive: sphere; radius: 0.1" position="0.5 0 0"
                       material="color:#10e670"></a-entity>
-                      <a-entity id="annyang" annyang-speech-recognition></a-entity>
+
+             <a-entity id="annyang" annyang-speech-recognition></a-entity>
+
         <a-entity id="switch" speech-command__start="command: start; type: attribute; attribute: visible; targetElement: #snow; value: true;"
                   speech-command__stop="command: stop; type: attribute; attribute: visible; targetElement: #snow;  value: false;">
         </a-entity>
         <a-entity id="snow" position="0 6 -15" particle-system="color: #ffffff"></a-entity>
 
-
         </a-marker>
+
+
+
+        <a-entity marker-distance></a-entity>
+
 
         <a-marker preset="pattern" type="pattern" url ="./assets/pattern-dpsd17042.patt">
             <a-text text="value: Despoina" rotation="-90 0 0" position="-0.5 -0.5 -0.7" color="#db16c8"></a-text>
@@ -39,31 +100,51 @@
             <a-text text="value: Kanni Rempouli"  rotation="-90 0 0" position="-0.7 0.3 0.6" color="#1be3dc"></a-text>
         </a-marker>
 
+        
+
         <a-assets>
             <a-asset-item id="Hydrogen" src="./assets/cube.gltf"></a-asset-item> 
            </a-assets>
 
-           <a-marker id="pattern" type="pattern" url="./assets/pattern-card-H.patt">
-            <a-image src="assets/card-H.png" rotation="-90 0 0" width: 1.2; height: 1.2></a-image>
+           <a-marker id="patternH" type="pattern" url="./assets/pattern-card-H.patt">
+            <a-image id="cardH" src="assets/card-H.png" rotation="-90 0 0" width: 1.2; height: 1.2;></a-image>
             <a-entity position="0 1 0" rotation="0 90 0" scale=" 0.2 0.2 0.2"
             gltf-model="#Hydrogen"
-            animation__rotate = "property: rotation; dur: 5000; easing: linear; dir: normal; from:0 0 0; to: 360 0 0; loop: true;" >
+            animation__rotate = "property: rotation; dur: 5000; easing: linear; dir: normal; from:0 0 0; to: 360 0 0; loop: true;" 
+            animation-mixer="clip: *; loop: repeat; timeScale: 1.5;">
 
             </a-entity>
+   
         </a-marker>
+
 
         <a-assets>
             <a-asset-item id="Oxygen" src="./assets/sphere.gltf"></a-asset-item> 
            </a-assets>
 
-           <a-marker id="oxygen" type="pattern" url="./assets/pattern-card-O.patt">
-            <a-image src="assets/card-O.png" rotation="-90 0 0" width: 1.5; height: 1.5></a-image>
+           <a-assets>
+            <a-asset-item id="Water" src="./assets/water.gltf"></a-asset-item> 
+           </a-assets>
+
+           <a-marker id="patternO" type="pattern" url="./assets/pattern-card-O.patt">
+            <a-image id="cardO" src="assets/card-O.png" rotation="-90 0 0" width: 1; height: 1;></a-image>
+
             <a-entity position="0 1 0" rotation="0 90 0" scale="0.2 0.2 0.2"
             gltf-model="#Oxygen"
-            animation__rotate = "property: rotation; dur: 5000; easing: linear; dir: normal; from:0 0 0; to: 0 0 360; loop: true;" >
-
+            animation__rotate = "property: rotation; dur: 5000; easing: linear; dir: normal; from:0 0 0; to: 0 0 360; loop: true;" 
+            animation-mixer="clip: *; loop: repeat;">
             </a-entity>
+
+            <a-image id="cardh2O" src="assets/H2O.png" rotation="-90 0 0" width: 1; height: 1; visible="false"></a-image>
+
+            <a-entity position="0 0 0" rotation="0 90 0"
+            gltf-model="#Water"
+            animation="property: rotation; to: 0 360 0; loop: true; dur: 10000" visible="false">
+	
+            </a-entity>
+        
         </a-marker>
+
 
 
         <a-entity camera></a-entity>
