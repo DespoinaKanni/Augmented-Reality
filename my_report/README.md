@@ -55,6 +55,21 @@ Z:\My Documents\GitHub\Augmented-Reality>python -m http.server (enter)
 
 Έπειτα, επέστρεψα ξανά στο αρχείο με τον κώδικα στο Visual Studio Code για να τον συμπληρώσω με τις νέες εντολές.
 
+### Πρώτο σκέλος:
+
+
+1.Διάλεξα μια [εικόνα](https://www.google.gr/search?q=rabbit+&tbm=isch&ved=2ahUKEwixgL36hdr3AhUOgv0HHau1By4Q2-cCegQIABAA&oq=rabbit+&gs_lcp=CgNpbWcQAzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQ6BAgjECc6BAgAEBg6BggAEAoQGDoHCCMQ6gIQJzoECAAQQzoICAAQgAQQsQM6CAgAELEDEIMBUMkIWL8mYM41aAFwAHgAgAF8iAGtB5IBAzAuOJgBAKABAaoBC2d3cy13aXotaW1nsAEKwAEB&sclient=img&ei=yQh9YvH3CI6E9u8Pq-ue8AI&bih=920&biw=1903&hl=el#imgrc=zuW48o82JPTc1M) από το διαδίκτυο και την αποθήκευσα
+
+2.Την έβαλα στο Photoshop και την έφτιαξα να είναι σε μορφή png και την ονόμασα despoina.png 
+
+3.Έπειτα την ανέβασα στα assets στο github
+
+4.Από τα assets στο github αποθήκευσα την εικόνα dpsd.png και την έβαλα στο Photoshop για να την φτιάξω με το δικό μου dpsd. Την ονόμασα dpsd17042.png
+
+5.Μπήκα από το github στο deliverable 2 και στην περιγραφή πάτησα στο link με τα [pattern markers](https://ar-js-org.github.io/AR.js-Docs/marker-based/) 
+
+6.Από την παραπάνω σελίδα βρήκα τα 
+
 
 # 3rd Deliverable 
 
