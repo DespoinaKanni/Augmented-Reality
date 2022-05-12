@@ -54,7 +54,7 @@ Z:\My Documents\GitHub\Augmented-Reality>python -m http.server (enter)
 Το *`python -m http.server`* το βρήκα μέσα από: merkourisa/Augmented-Reality στα Discussions στο Preview του κώδικα και το αντέγραψα και το έκανα επικόλληση στο Command Prompt. Τέλος, πάλι μέσα από το Preview του κώδικα πάτησα το [localhost](http://localhost:8000/) όπου μου άνοιξε την κάμερα του υπολογιστή.
 
 
-## Πρώτο σκέλος:
+### Πρώτο σκέλος:
 
 
 1.Διάλεξα μια [εικόνα](https://www.google.gr/search?q=rabbit+&tbm=isch&ved=2ahUKEwixgL36hdr3AhUOgv0HHau1By4Q2-cCegQIABAA&oq=rabbit+&gs_lcp=CgNpbWcQAzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQ6BAgjECc6BAgAEBg6BggAEAoQGDoHCCMQ6gIQJzoECAAQQzoICAAQgAQQsQM6CAgAELEDEIMBUMkIWL8mYM41aAFwAHgAgAF8iAGtB5IBAzAuOJgBAKABAaoBC2d3cy13aXotaW1nsAEKwAEB&sclient=img&ei=yQh9YvH3CI6E9u8Pq-ue8AI&bih=920&biw=1903&hl=el#imgrc=zuW48o82JPTc1M) από το διαδίκτυο και την αποθήκευσα
