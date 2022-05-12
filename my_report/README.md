@@ -53,7 +53,6 @@ Z:\My Documents\GitHub\Augmented-Reality>python -m http.server (enter)
 
 Το *`python -m http.server`* το βρήκα μέσα από: merkourisa/Augmented-Reality στα Discussions στο Preview του κώδικα και το αντέγραψα και το έκανα επικόλληση στο Command Prompt. Τέλος, πάλι μέσα από το Preview του κώδικα πάτησα το [localhost](http://localhost:8000/) όπου μου άνοιξε την κάμερα του υπολογιστή.
 
-Έπειτα, επέστρεψα ξανά στο αρχείο με τον κώδικα στο Visual Studio Code για να τον συμπληρώσω με τις νέες εντολές.
 
 ### Πρώτο σκέλος:
 
@@ -70,6 +69,14 @@ Z:\My Documents\GitHub\Augmented-Reality>python -m http.server (enter)
 
 
 ![Στιγμιότυπο οθόνης (296)](https://user-images.githubusercontent.com/100956507/168093838-913cd9c9-bf70-48cf-943a-6b1f053b6893.png)
+
+
+6.Έκανα upload την εικόνα dpsd17042.png και την προσάρμοσα
+
+7.Τέλος, πάτησα download pattern και download image και τα έβαλα στα assets στο github
+
+8.Έπειτα, επέστρεψα ξανά στο αρχείο με τον κώδικα στο Visual Studio Code για να τον συμπληρώσω με τις νέες εντολές.
+
 
 
 
