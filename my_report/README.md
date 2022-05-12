@@ -37,6 +37,61 @@ Z:\My Documents\GitHub\Augmented-Reality>python -m http.server (enter)
 
 # 2nd Deliverable
 
+Η εργασία πραγματοποιήθηκε στους υπολογιστές της σχολής.
+
+Αρχικά συνδέθηκα στο **`GitHub`** με τους προσωπικούς μου κωδικούς. Από το προφίλ μου μπήκα στο **`Augmented-Reality`** όπου εκεί πάτησα στο Code (πράσινο χρώμα) και επέλεξα να ανοίξει με το **`GitHub Desktop`** (Open with GitHub Desktop). Στην συνέχεια ακολούθησα την διαδρομή *`zdrive\Documents\GitHub\Augmented Reality\ marker_based`* και εκεί βρήκα το αρχείο index όπου το άνοιξα με Visual Studio Code και εμφανίστηκε ο κώδικας. 
+
+Στην συνέχεια από την αναζήτηση (search bar windows) εντόπισα το **`Command Prompt`** και ακολούθησα τις παρακάτω ενέργειες:
+
+* Z:\>cd “My Documents” (enter) 
+
+* Z:\My Documents>cd GitHub (enter)
+
+* Z:\My Documents\GitHub>cd Augmented-Reality (enter)
+
+* Z:\My Documents\GitHub\Augmented-Reality>python -m http.server (enter)
+
+Το *`python -m http.server`* το βρήκα μέσα από: merkourisa/Augmented-Reality στα Discussions στο Preview του κώδικα και το αντέγραψα και το έκανα επικόλληση στο Command Prompt. Τέλος, πάλι μέσα από το Preview του κώδικα πάτησα το [localhost](http://localhost:8000/) όπου μου άνοιξε την κάμερα του υπολογιστή.
+
+
+### Πρώτο σκέλος:
+
+
+1.Διάλεξα μια [εικόνα](https://www.google.gr/search?q=rabbit+&tbm=isch&ved=2ahUKEwixgL36hdr3AhUOgv0HHau1By4Q2-cCegQIABAA&oq=rabbit+&gs_lcp=CgNpbWcQAzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQ6BAgjECc6BAgAEBg6BggAEAoQGDoHCCMQ6gIQJzoECAAQQzoICAAQgAQQsQM6CAgAELEDEIMBUMkIWL8mYM41aAFwAHgAgAF8iAGtB5IBAzAuOJgBAKABAaoBC2d3cy13aXotaW1nsAEKwAEB&sclient=img&ei=yQh9YvH3CI6E9u8Pq-ue8AI&bih=920&biw=1903&hl=el#imgrc=zuW48o82JPTc1M) από το διαδίκτυο και την αποθήκευσα
+
+2.Την έβαλα στο Photoshop και την έφτιαξα να είναι σε μορφή png και την ονόμασα despoina.png 
+
+3.Έπειτα την ανέβασα στα assets στο github
+
+4.Από τα assets στο github αποθήκευσα την εικόνα dpsd.png και την έβαλα στο Photoshop για να την φτιάξω με το δικό μου dpsd. Την ονόμασα dpsd17042.png
+
+5.Μπήκα από το github στο deliverable 2 και στην περιγραφή πάτησα τα [pattern markers](https://ar-js-org.github.io/AR.js-Docs/marker-based/) και εκεί βρήκα το [tool](https://ar-js-org.github.io/AR.js/three.js/examples/marker-training/examples/generator.html) όπου φτιάχνουμε τα pattern 
+
+
+![tool](https://user-images.githubusercontent.com/100956507/168103183-53e38828-9170-4dee-b96b-24d13dc78a4c.png)
+
+
+
+6.Έκανα upload την εικόνα dpsd17042.png και την προσάρμοσα
+
+7.Τέλος, πάτησα download pattern και download image και τα έβαλα στα assets στο github
+
+8.Έπειτα, επέστρεψα ξανά στο αρχείο με τον κώδικα στο Visual Studio Code για να τον συμπληρώσω με τις νέες εντολές.
+
+#### ΚΩΔΙΚΑΣ: Για το marker, το ονοματεπώνυμο μου και την εικόνα που επέλεξα έψαξα στο διαδίκτυο για να βρω τον κώδικα που αντιστοιχεί στο καθένα.
+
+* [marker_code](https://ar-js-org.github.io/AR.js-Docs/marker-based/)
+
+
+![markercode](https://user-images.githubusercontent.com/100956507/168103374-6659299c-d41d-43cc-83d5-1cd288d7c533.png)
+
+
+
+
+
+
+
+
 
 # 3rd Deliverable 
 
