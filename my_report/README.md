@@ -107,6 +107,35 @@ Z:\My Documents\GitHub\Augmented-Reality>python -m http.server (enter)
 
 
 
+#### ΚΩΔΙΚΑΣ: Έψαξα στο διαδίκτυο τον κώδικα για να προσαρμόσω το gtlf αρχείο:
+
+* [link1](https://aframe.io/docs/1.3.0/components/gltf-model.html?fbclid=IwAR3bLZpErBOtJZQDdJEL9PivNIGV1rMUdQbWtVPDru93Rih0MIX6ULJ2rTg#sidebar~)
+* [link2](https://medium.com/chialab-open-source/build-your-location-based-augmented-reality-web-app-c2442e716564)
+* [link3](https://ar-js-org.github.io/AR.js-Docs/)
+
+
+Προσάρμοσα στον κώδικα το position, scale, id, rotation και τα ονόματα των αρχείων μου.
+
+Έβαλα μπροστά στην κάμερα την εικόνα pattern-card-H.png και μου εμφανίστηκε στην οθόνη o κύβος και περιστρεφόταν.
+
+Έβαλα μπροστά στην κάμερα την εικόνα pattern-card-Ο.png και μου εμφανίστηκε στην οθόνη η σφαίρα και περιστρεφόταν.
+
+
+### Τρίτο σκέλος:
+
+Στο τρίτο σκέλος πρόσπαθησα να το κάνω αλλά δεν τα κατάφερα. 
+
+Έφτιαξα στο *`blender`* δυο `σφαίρες` και τους πρόσθεσα χρώματα. Τέλος τα αποθήκευσα σε μορφή **`gltf`** και τα ανέβασα στα assets.
+
+Προσάρμοσα το αρχείο gltf στον κώδικα.
+
+Διάλεξα μια εικόνα από το διαδίκτυο 
+
+Την έβαλα στο Photoshop και την έφτιαξα να είναι σε μορφή png και την ονόμασα Η2Ο.png και την ανέβασα στα assets στο github.
+
+
+
+
 
 
 
