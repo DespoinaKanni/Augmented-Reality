@@ -87,11 +87,12 @@ Z:\My Documents\GitHub\Augmented-Reality>python -m http.server (enter)
 Προσάρμοσα στον κώδικα το position και τα χρώματα [#db16c8](https://www.google.gr/search?q=%23db16c8&sxsrf=ALiCzsY3EBaKlVR1CUDX8tKF80aV4c6_Cw%3A1652440043801&source=hp&ei=6zt-Yq2JLob2sAf576TIDw&iflsig=AJiK0e8AAAAAYn5J-63xFz8nrhJ2vQ9YagoIKGPATw5m&ved=0ahUKEwjtqsjuqtz3AhUGO-wKHfk3CfkQ4dUDCAc&uact=5&oq=%23db16c8&gs_lcp=Cgdnd3Mtd2l6EANQAFgAYKcJaABwAHgAgAF_iAF_kgEDMC4xmAEAoAECoAEB&sclient=gws-wiz) και [#1be3dc](https://www.google.gr/search?q=%231be3dc&sxsrf=ALiCzsZVKj05ia0bsPvkfI0QUbbqXT8tYw%3A1652440085991&source=hp&ei=FTx-YqiDOaTgkgWeqrKQDw&iflsig=AJiK0e8AAAAAYn5KJdT_ow-_-Cv6cpkG98paf4P3SAC1&ved=0ahUKEwjo4daCq9z3AhUksKQKHR6VDPIQ4dUDCAc&uact=5&oq=%231be3dc&gs_lcp=Cgdnd3Mtd2l6EANQAFgAYPQHaABwAHgAgAF4iAF4kgEDMC4xmAEAoAECoAEB&sclient=gws-wiz)
 
 
-Έβαλα μπροστά στην κάμερα την εικόνα pattern-dpsd17042.png και μου εμφανίστηκε στην οθόνη το όνομα μου, το επίθετο μου και την εικόνα που επέλεξα 
+Έβαλα μπροστά στην κάμερα την εικόνα pattern-dpsd17042.png και μου εμφανίστηκαν στην οθόνη το όνομα μου, το επίθετο μου και η εικόνα που επέλεξα.
 
 ### Δεύτερο σκέλος:
 
-1.
+1. Μπήκα στα assets και κατέβασα τις εικόνες του υδρογόνου και του οξυγώνου 
+2. 
 
 
 
