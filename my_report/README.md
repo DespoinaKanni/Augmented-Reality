@@ -84,7 +84,12 @@ Z:\My Documents\GitHub\Augmented-Reality>python -m http.server (enter)
 * [name_code](https://aframe.io/docs/1.3.0/primitives/a-text.html)
 * [image_code](https://levelup.gitconnected.com/simple-augmented-reality-ar-integration-with-a-frame-f625e9dc66b8)
 
+Προσάρμοσα στον κώδικα το position και τα χρώματα 
+Έβαλα μπροστά στην κάμερα την εικόνα pattern-dpsd17042.png και μου εμφανίστηκε στην οθόνη το όνομα μου, το επίθετο μου και την εικόνα που επέλεξα 
 
+### Δεύτερο σκέλος:
+
+1.
 
 
 
