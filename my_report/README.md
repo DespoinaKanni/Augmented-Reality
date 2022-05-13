@@ -91,8 +91,21 @@ Z:\My Documents\GitHub\Augmented-Reality>python -m http.server (enter)
 
 ### Δεύτερο σκέλος:
 
-1. Μπήκα στα assets και κατέβασα τις εικόνες του υδρογόνου και του οξυγώνου 
-2. 
+1. Μπήκα στα assets και κατέβασα τις εικόνες (cards) του υδρογόνου και του οξυγώνου. 
+2. Μπήκα στο [tool](https://ar-js-org.github.io/AR.js/three.js/examples/marker-training/examples/generator.html) όπου φτιάχνουμε τα pattern.
+3. Έκανα upload τις εικόνες (cards) του υδρογόνου και του οξυγώνου και τις προσάρμοσα.
+4. Τέλος, πάτησα download pattern και download image και τις έβαλα στα assets στο github.
+
+Έφτιαξα στο blender έναν κύβο και μια σφαίρα και τους πρόσθεσα χρώματα. Τέλος τα αποθήκευσα σε μορφη gltf και τα ανέβασα στα assets.
+
+
+![cube](https://user-images.githubusercontent.com/100956507/168274711-3f1c7992-d9f9-4611-acbe-ce58dee3c935.png)
+
+
+
+![sphere](https://user-images.githubusercontent.com/100956507/168274773-31f4d448-1d22-4c53-b0ef-be87d611b5ff.png)
+
+
 
 
 
