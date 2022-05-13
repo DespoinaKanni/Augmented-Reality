@@ -80,10 +80,12 @@ Z:\My Documents\GitHub\Augmented-Reality>python -m http.server (enter)
 
 #### ΚΩΔΙΚΑΣ: Για το marker, το ονοματεπώνυμο μου και την εικόνα που επέλεξα έψαξα στο διαδίκτυο για να βρω τον κώδικα που αντιστοιχεί στο καθένα.
 
-* [marker_code](https://ar-js-org.github.io/AR.js-Docs/marker-based/)
+* [marker_code](https://aframe.io/blog/arjs/)
+* [name_code](https://aframe.io/docs/1.3.0/primitives/a-text.html)
+* [image_code](https://levelup.gitconnected.com/simple-augmented-reality-ar-integration-with-a-frame-f625e9dc66b8)
 
 
-![markercode](https://user-images.githubusercontent.com/100956507/168103374-6659299c-d41d-43cc-83d5-1cd288d7c533.png)
+
 
 
 
