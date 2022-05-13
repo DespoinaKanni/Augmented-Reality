@@ -78,7 +78,7 @@ Z:\My Documents\GitHub\Augmented-Reality>python -m http.server (enter)
 
 8.Έπειτα, επέστρεψα ξανά στο αρχείο με τον κώδικα στο Visual Studio Code για να τον συμπληρώσω με τις νέες εντολές.
 
-#### ΚΩΔΙΚΑΣ: Για το marker, το ονοματεπώνυμο μου και την εικόνα που επέλεξα έψαξα στο διαδίκτυο για να βρω τον κώδικα που αντιστοιχεί στο καθένα.
+#### ΚΩΔΙΚΑΣ: Για το `marker`, το `ονοματεπώνυμο` μου και την εικόνα` που επέλεξα έψαξα στο διαδίκτυο για να βρω τον κώδικα που αντιστοιχεί στο καθένα.
 
 * [marker_code](https://aframe.io/blog/arjs/)
 * [name_code](https://aframe.io/docs/1.3.0/primitives/a-text.html)
@@ -96,7 +96,7 @@ Z:\My Documents\GitHub\Augmented-Reality>python -m http.server (enter)
 3. Έκανα upload τις εικόνες (cards) του υδρογόνου και του οξυγώνου και τις προσάρμοσα.
 4. Τέλος, πάτησα download pattern και download image και τις έβαλα στα assets στο github.
 
-Έφτιαξα στο blender έναν κύβο και μια σφαίρα και τους πρόσθεσα χρώματα. Τέλος τα αποθήκευσα σε μορφη gltf και τα ανέβασα στα assets.
+Έφτιαξα στο *`blender`* έναν `κύβο` και μια `σφαίρα` και τους πρόσθεσα χρώματα. Τέλος τα αποθήκευσα σε μορφή **`gltf`** και τα ανέβασα στα assets.
 
 
 ![cube](https://user-images.githubusercontent.com/100956507/168274711-3f1c7992-d9f9-4611-acbe-ce58dee3c935.png)
