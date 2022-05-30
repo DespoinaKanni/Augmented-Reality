@@ -78,19 +78,65 @@ Z:\My Documents\GitHub\Augmented-Reality>python -m http.server (enter)
 
 8.Έπειτα, επέστρεψα ξανά στο αρχείο με τον κώδικα στο Visual Studio Code για να τον συμπληρώσω με τις νέες εντολές.
 
-#### ΚΩΔΙΚΑΣ: Για το marker, το ονοματεπώνυμο μου και την εικόνα που επέλεξα έψαξα στο διαδίκτυο για να βρω τον κώδικα που αντιστοιχεί στο καθένα.
+#### ΚΩΔΙΚΑΣ: Για το `marker`, το `ονοματεπώνυμο` μου και την `εικόνα` που επέλεξα έψαξα στο διαδίκτυο για να βρω τον κώδικα που αντιστοιχεί στο καθένα.
 
-* [marker_code](https://ar-js-org.github.io/AR.js-Docs/marker-based/)
+* [marker_code](https://aframe.io/blog/arjs/)
+* [name_code](https://aframe.io/docs/1.3.0/primitives/a-text.html)
+* [image_code](https://levelup.gitconnected.com/simple-augmented-reality-ar-integration-with-a-frame-f625e9dc66b8)
 
-
-![markercode](https://user-images.githubusercontent.com/100956507/168103374-6659299c-d41d-43cc-83d5-1cd288d7c533.png)
-
-
-
+Προσάρμοσα στον κώδικα το position και τα χρώματα [#db16c8](https://www.google.gr/search?q=%23db16c8&sxsrf=ALiCzsY3EBaKlVR1CUDX8tKF80aV4c6_Cw%3A1652440043801&source=hp&ei=6zt-Yq2JLob2sAf576TIDw&iflsig=AJiK0e8AAAAAYn5J-63xFz8nrhJ2vQ9YagoIKGPATw5m&ved=0ahUKEwjtqsjuqtz3AhUGO-wKHfk3CfkQ4dUDCAc&uact=5&oq=%23db16c8&gs_lcp=Cgdnd3Mtd2l6EANQAFgAYKcJaABwAHgAgAF_iAF_kgEDMC4xmAEAoAECoAEB&sclient=gws-wiz) και [#1be3dc](https://www.google.gr/search?q=%231be3dc&sxsrf=ALiCzsZVKj05ia0bsPvkfI0QUbbqXT8tYw%3A1652440085991&source=hp&ei=FTx-YqiDOaTgkgWeqrKQDw&iflsig=AJiK0e8AAAAAYn5KJdT_ow-_-Cv6cpkG98paf4P3SAC1&ved=0ahUKEwjo4daCq9z3AhUksKQKHR6VDPIQ4dUDCAc&uact=5&oq=%231be3dc&gs_lcp=Cgdnd3Mtd2l6EANQAFgAYPQHaABwAHgAgAF4iAF4kgEDMC4xmAEAoAECoAEB&sclient=gws-wiz)
 
 
+Έβαλα μπροστά στην κάμερα την εικόνα pattern-dpsd17042.png και μου εμφανίστηκαν στην οθόνη το όνομα μου, το επίθετο μου και η εικόνα που επέλεξα.
+
+### Δεύτερο σκέλος:
+
+1. Μπήκα στα assets και κατέβασα τις εικόνες (cards) του υδρογόνου και του οξυγώνου. 
+2. Μπήκα στο [tool](https://ar-js-org.github.io/AR.js/three.js/examples/marker-training/examples/generator.html) όπου φτιάχνουμε τα pattern.
+3. Έκανα upload τις εικόνες (cards) του υδρογόνου και του οξυγώνου και τις προσάρμοσα.
+4. Τέλος, πάτησα download pattern και download image και τις έβαλα στα assets στο github.
+
+Έφτιαξα στο *`blender`* έναν `κύβο` και μια `σφαίρα` και τους πρόσθεσα χρώματα. Τέλος τα αποθήκευσα σε μορφή **`gltf`** και τα ανέβασα στα assets.
 
 
+![cube](https://user-images.githubusercontent.com/100956507/168274711-3f1c7992-d9f9-4611-acbe-ce58dee3c935.png)
+
+
+
+![sphere](https://user-images.githubusercontent.com/100956507/168274773-31f4d448-1d22-4c53-b0ef-be87d611b5ff.png)
+
+
+
+#### ΚΩΔΙΚΑΣ: Έψαξα στο διαδίκτυο τον κώδικα για να προσαρμόσω το gtlf αρχείο:
+
+* [link1](https://aframe.io/docs/1.3.0/components/gltf-model.html?fbclid=IwAR3bLZpErBOtJZQDdJEL9PivNIGV1rMUdQbWtVPDru93Rih0MIX6ULJ2rTg#sidebar~)
+* [link2](https://medium.com/chialab-open-source/build-your-location-based-augmented-reality-web-app-c2442e716564)
+* [link3](https://ar-js-org.github.io/AR.js-Docs/)
+
+
+Προσάρμοσα στον κώδικα το position, scale, id, rotation και τα ονόματα των αρχείων μου.
+
+Έβαλα μπροστά στην κάμερα την εικόνα pattern-card-H.png και μου εμφανίστηκε στην οθόνη o κύβος και περιστρεφόταν.
+
+Έβαλα μπροστά στην κάμερα την εικόνα pattern-card-Ο.png και μου εμφανίστηκε στην οθόνη η σφαίρα και περιστρεφόταν.
+
+
+### Τρίτο σκέλος:
+
+Στο τρίτο σκέλος πρόσπαθησα να το κάνω αλλά δεν τα κατάφερα. 
+
+1.Έφτιαξα στο *`blender`* δυο `σφαίρες` και τους πρόσθεσα χρώματα. Τέλος τα αποθήκευσα σε μορφή **`gltf`** και τα ανέβασα στα assets.
+
+2.Προσάρμοσα το αρχείο gltf στον κώδικα.
+
+3.Διάλεξα μια εικόνα από το διαδίκτυο 
+
+4.Την έβαλα στο Photoshop και την έφτιαξα να είναι σε μορφή png και την ονόμασα Η2Ο.png και την ανέβασα στα assets στο github.
+
+5.Προσπάθησα να προσαρμόσω τον [κώδικα για την απόσταση](https://stackoverflow.com/questions/61239107/how-to-get-marker-position-x-y-ar-js) με τα δικά μου δεδομένα.
+Όμως το μόνο που κατάφερα είναι όσο απόμακρύνεται ή έρχεται πιο κόντα η εικόνα (pattern-card-Ο.png) του οξυγώνου στην κάμερα να αλλάζουν στην οθόνη εναλλάξ οι εικόνες (card-O και Η2Ο) που φαίνονται πίσω από το ανιμασιον του οξυγώνου (δηλαδη την πορτοκαλί σφαίρα)
+
+6.Το καινούριο ανιμασιον που έφτιαξα δεν εμφανίζεται καθόλου.
 
 
 # 3rd Deliverable 
