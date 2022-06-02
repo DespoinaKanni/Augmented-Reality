@@ -141,6 +141,26 @@ Z:\My Documents\GitHub\Augmented-Reality>python -m http.server (enter)
 
 # 3rd Deliverable 
 
+Η εργασία έγινε στους υπολογιστές της σχολής.
+
+Αρχικά συνδέθηκα στο **`GitHub`** με τους προσωπικούς μου κωδικούς και άνοιξα και το **`GitHub Desktop`**. Στην συνέχεια ακολούθησα την διαδρομή *`zdrive\Documents\GitHub\Augmented Reality\ locasion_based`* και εκεί βρήκα το αρχείο index όπου το άνοιξα με Visual Studio Code και εμφανίστηκε ο κώδικας. 
+
+Στην συνέχεια από την αναζήτηση (search bar windows) εντόπισα το **`Command Prompt`** και ακολούθησα τις παρακάτω ενέργειες:
+
+* Z:\>cd “My Documents” (enter) 
+
+* Z:\My Documents>cd GitHub (enter)
+
+* Z:\My Documents\GitHub>cd Augmented-Reality (enter)
+
+* Z:\My Documents\GitHub\Augmented-Reality>python -m http.server (enter)
+
+Το *`python -m http.server`* το βρήκα μέσα από: merkourisa/Augmented-Reality στα Discussions στο Preview του κώδικα και το αντέγραψα και το έκανα επικόλληση στο Command Prompt. Τέλος, πάλι μέσα από το Preview του κώδικα πάτησα το [localhost](http://localhost:8000/) όπου μου άνοιξε την κάμερα του υπολογιστή.
+
+### Πρώτο σκέλος:
+
+
+
 
 # Conclusions
 
