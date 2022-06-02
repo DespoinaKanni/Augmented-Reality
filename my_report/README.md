@@ -143,7 +143,7 @@ Z:\My Documents\GitHub\Augmented-Reality>python -m http.server (enter)
 
 Η εργασία έγινε στους υπολογιστές της σχολής.
 
-Αρχικά συνδέθηκα στο **`GitHub`** με τους προσωπικούς μου κωδικούς και άνοιξα το **`GitHub Desktop`**. Στην συνέχεια ακολούθησα την διαδρομή *`zdrive\Documents\GitHub\Augmented Reality\ locasion_based`* και εκεί βρήκα το αρχείο index όπου το άνοιξα με Visual Studio Code και εμφανίστηκε ο κώδικας. 
+Αρχικά συνδέθηκα στο **`GitHub`** με τους προσωπικούς μου κωδικούς και άνοιξα το **`GitHub Desktop`**. Στην συνέχεια ακολούθησα την διαδρομή *`zdrive\Documents\GitHub\Augmented Reality\ location_based`* και εκεί βρήκα το αρχείο index όπου το άνοιξα με Visual Studio Code και εμφανίστηκε ο κώδικας. 
 
 Στην συνέχεια από την αναζήτηση (search bar windows) εντόπισα το **`Command Prompt`** και ακολούθησα τις παρακάτω ενέργειες:
 
@@ -153,15 +153,15 @@ Z:\My Documents\GitHub\Augmented-Reality>python -m http.server (enter)
 
 * Z:\My Documents\GitHub>cd Augmented-Reality (enter)
 
-* Z:\My Documents\GitHub\Augmented-Reality>cd locasion_based (enter)
+* Z:\My Documents\GitHub\Augmented-Reality>cd location_based (enter)
 
-* Z:\My Documents\GitHub\Augmented-Reality\locasion_based python -m http.server (enter)
+* Z:\My Documents\GitHub\Augmented-Reality\location_based python -m http.server (enter)
 
 Το *`python -m http.server`* το βρήκα μέσα από: merkourisa/Augmented-Reality στα Discussions στο Preview του κώδικα και το αντέγραψα και το έκανα επικόλληση στο Command Prompt. Τέλος, πάλι μέσα από το Preview του κώδικα πάτησα το [localhost](http://localhost:8000/) όπου μου άνοιξε την κάμερα του υπολογιστή.
 
 ### Πρώτο σκέλος:
 
-#### ΚΩΔΙΚΑΣ: Προκειμένου να εμφανίζεται το κείμενο κάνοντας `κλικ` πάνω στο ανιμάσιον πήρα το script και στην συνέχεια πρόσθεσα το 'entity id="cameraRing"` για να είναι το ανιμασιον clikable από το [link](https://glitch.com/edit/#!/salty-partner-1?path=index.html%3A1%3A0)
+#### ΚΩΔΙΚΑΣ: Προκειμένου να εμφανίζεται το κείμενο κάνοντας `κλικ` πάνω στο ανιμάσιον πήρα το script και στην συνέχεια πρόσθεσα το `entity id="cameraRing"` για να είναι το ανιμασιον clikable από το [link](https://glitch.com/edit/#!/salty-partner-1?path=index.html%3A1%3A0)
 
 Έφτιαξα στο *`blender`* έναν `plane`, ένα `torus` και τους πρόσθεσα χρώματα. Τέλος τα αποθήκευσα σε μορφή **`gltf`** και τα ανέβασα στα assets.
 
