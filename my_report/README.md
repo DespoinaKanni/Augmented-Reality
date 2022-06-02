@@ -174,6 +174,10 @@ Z:\My Documents\GitHub\Augmented-Reality>python -m http.server (enter)
 
 Προσάρμοσα στον κώδικα το *position, scale, id, rotation* και τα ονόματα των αρχείων μου. Στο text έβαλα την φράση *`The Colosseum of Rome, Italy`* και το χρώμα που χρησιμοποίησα είναι [#20d4e8](https://www.google.gr/search?q=%2320d4e8&hl=el&sxsrf=ALiCzsaOicZ_digYK6ptprItf8_nW-3jJw%3A1654181974085&source=hp&ei=VtCYYo27ApDl7_UPzLWSaA&iflsig=AJiK0e8AAAAAYpjeZrEEPTVOgupHNLmGnWtbQdLKogmj&ved=0ahUKEwiNvtOHhI_4AhWQ8rsIHcyaBA0Q4dUDCAc&uact=5&oq=%2320d4e8&gs_lcp=Cgdnd3Mtd2l6EANQAFgAYKsHaABwAHgAgAF-iAF-kgEDMC4xmAEAoAECoAEB&sclient=gws-wiz), τέλος προσάρμοσα τα *font-size, width height letterSpacing* για να φαίνεται το κείμενο στην οθόνη.
 
+#### COORDINATES: Έψαξα στο διαδίκτυο για να βρω τις συντεταγμένες του Κολοσσαιου της Ρώμης
+
+![coordinates](https://user-images.githubusercontent.com/100956507/171661338-408cc0c2-22bb-4c00-b8f2-3eb5534c87b8.png)
+
 
 # Conclusions
 
