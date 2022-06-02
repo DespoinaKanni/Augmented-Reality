@@ -161,7 +161,7 @@ Z:\My Documents\GitHub\Augmented-Reality>python -m http.server (enter)
 
 ### Πρώτο σκέλος:
 
-#### ΚΩΔΙΚΑΣ: Προκειμένου να εμφανίζεται το κείμενο κάνοντας `κλικ` πάνω στο ανιμάσιον πήρα το script και στην συνέχεια πρόσθεσα το `entity id="cameraRing"` για να είναι το ανιμασιον clikable από το [link](https://glitch.com/edit/#!/salty-partner-1?path=index.html%3A1%3A0)
+#### ΚΩΔΙΚΑΣ: Προκειμένου να εμφανίζεται το κείμενο κάνοντας `κλικ` πάνω στο `ανιμάσιον` πήρα το `script` και στην συνέχεια πρόσθεσα το `entity id="cameraRing"` για να είναι το ανιμασιον clikable από το [link](https://glitch.com/edit/#!/salty-partner-1?path=index.html%3A1%3A0)
 
 Έφτιαξα στο *`blender`* έναν `plane`, ένα `torus` και τους πρόσθεσα χρώματα. Τέλος τα αποθήκευσα σε μορφή **`gltf`** και τα ανέβασα στα assets.
 
@@ -172,7 +172,8 @@ Z:\My Documents\GitHub\Augmented-Reality>python -m http.server (enter)
 * [link3](https://ar-js-org.github.io/AR.js-Docs/)
 * [link4](https://aframe.io/blog/arjs3/)
 
-Προσάρμοσα στον κώδικα το position, scale, id, rotation και τα ονόματα των αρχείων μου.
+Προσάρμοσα στον κώδικα το *position, scale, id, rotation* και τα ονόματα των αρχείων μου. Στο text έβαλα την φράση *`The Colosseum of Rome, Italy`* και το χρώμα που χρησιμοποίησα είναι 
+
 
 # Conclusions
 
