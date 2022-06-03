@@ -196,8 +196,12 @@ Z:\My Documents\GitHub\Augmented-Reality>python -m http.server (enter)
 
 #### Φωτογραφία - Βιομηχανικό Μουσείο της Σύρου
 
+![industrialmuseum](https://user-images.githubusercontent.com/100956507/171830398-617e3498-3447-44ac-b7db-3c99ee909df0.png)
+
 
 #### Συντεταγμένες -  Βιομηχανικό Μουσείο της Σύρου
+
+![coormuseum](https://user-images.githubusercontent.com/100956507/171830540-286d9240-194e-4077-af07-508bd6b61202.png)
 
 
 
