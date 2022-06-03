@@ -165,6 +165,13 @@ Z:\My Documents\GitHub\Augmented-Reality>python -m http.server (enter)
 
 Έφτιαξα στο *`blender`* ένα `plane`, ένα `torus` και τους πρόσθεσα χρώματα. Τέλος τα αποθήκευσα σε μορφή **`gltf`** και τα ανέβασα στα assets.
 
+![eikona1blen](https://user-images.githubusercontent.com/100956507/171826061-4cfa1295-b34f-4b6c-a401-9ee826a7d2b4.png)
+
+![eikona2blen](https://user-images.githubusercontent.com/100956507/171826131-60a1aa56-47f2-4076-8dea-627b9dc9b5c2.png)
+
+![eikona3blen](https://user-images.githubusercontent.com/100956507/171826191-0aac67d9-546f-4174-958c-aa569159c15c.png)
+
+
 #### ΚΩΔΙΚΑΣ: Έψαξα στο διαδίκτυο τον κώδικα για να προσαρμόσω το `gtlf`, `gps-entity-place` και το `text`:
 
 * [link1](https://aframe.io/docs/1.3.0/components/gltf-model.html?fbclid=IwAR3bLZpErBOtJZQDdJEL9PivNIGV1rMUdQbWtVPDru93Rih0MIX6ULJ2rTg#sidebar~)
@@ -174,9 +181,19 @@ Z:\My Documents\GitHub\Augmented-Reality>python -m http.server (enter)
 
 Προσάρμοσα στον κώδικα το *position, scale, id, rotation* και τα ονόματα των αρχείων μου. Στο text έβαλα την φράση *`The Colosseum of Rome, Italy`* και το χρώμα που χρησιμοποίησα είναι [#20d4e8](https://www.google.gr/search?q=%2320d4e8&hl=el&sxsrf=ALiCzsaOicZ_digYK6ptprItf8_nW-3jJw%3A1654181974085&source=hp&ei=VtCYYo27ApDl7_UPzLWSaA&iflsig=AJiK0e8AAAAAYpjeZrEEPTVOgupHNLmGnWtbQdLKogmj&ved=0ahUKEwiNvtOHhI_4AhWQ8rsIHcyaBA0Q4dUDCAc&uact=5&oq=%2320d4e8&gs_lcp=Cgdnd3Mtd2l6EANQAFgAYKsHaABwAHgAgAF-iAF-kgEDMC4xmAEAoAECoAEB&sclient=gws-wiz), τέλος προσάρμοσα τα *font-size, width, height, letterSpacing* για να φαίνεται το κείμενο στην οθόνη.
 
-#### COORDINATES: Έψαξα στο διαδίκτυο για να βρω τις συντεταγμένες του Colosseum της Ρώμης και τις πρόσθεσα στο **latitude** και **longitude** αντίστοιχα.
+#### COORDINATES: Έψαξα στο διαδίκτυο για να βρω τις συντεταγμένες του Colosseum της Ρώμης και τις πρόσθεσα στο **latitude** και **longitude** στον κώδικα αντίστοιχα.
 
 ![coordinates](https://user-images.githubusercontent.com/100956507/171661338-408cc0c2-22bb-4c00-b8f2-3eb5534c87b8.png)
+
+
+
+### Δεύτερο σκέλος:
+
+* Το σημείο που επέλεξα είναι το Βιομηχανικό Μουσείο της Σύρου.
+* Έψαξα στο google και βρήκα μια φωτογραφία από το Βιομηχανικό Μουσείο.
+* Έψαξα στο google και βρήκα τις συντεταγμένες (**latitude** και **longitude**) από το Βιομηχανικό Μουσείο.
+* 
+
 
 
 # Conclusions
